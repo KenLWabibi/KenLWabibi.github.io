@@ -1,0 +1,38 @@
+<html>
+
+		  <head>
+				    <title>
+                   My first Web Page!
+				    </title>
+
+            <style>
+                    table{
+                            border: 2pt blue;
+                    }
+                    td {
+                            paddling: 10pt:
+                            text-aglign: center;
+                    }
+            </sty;e>
+		  </head>
+
+		  <body>
+				   <center>
+						      <h1>Welcome to my page!</h1>
+				
+						          <table border=“1”>
+                              <tr>
+                                      <td>Name</td>
+                                      <td>Major</td>
+                                      <td>Dream Vacation Place</d>
+                              </tr>
+                              <tr>
+                                      <td>Ken Wabibi</td>
+                                      <td>Cyber Security</td>
+                                      <td>DR Congo</td>
+                              </td>
+						         </table>
+				     </center>
+		   </body>
+
+</html>
