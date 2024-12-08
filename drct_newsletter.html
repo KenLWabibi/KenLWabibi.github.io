@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!--
+
+      Author: Ken Wabibi 
+      Date: 08DEC24  
+
+      Filename:   drct_newsletter.html
+
+   -->
+   
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title>Newsletter | DRCTeasures </title>
+   <link href="rb_reset.css" rel="stylesheet" />
+   <link href="drct_layout2.css" rel="stylesheet" />
+   <link href="drct_forms.css" rel="stylesheet">
+   <script src="rb_formsubmit.js"></script>
+</head>
+
+<body>
+   <header>
+      <a href="drct_home.html"><img src="drct_logo2.png" alt="DRCTeasures" /></a> 
+        <nav>
+            <ul>
+                <li><a href="drct_giveaway.html">Giveaways</a></li>
+                <li><a href="drct_about.html">About Us</a></li>
+                <li><a href="drct_music.html">Music</a></li>
+                <li><a href="drct_food.html">Food</a></li>
+                <li><a href="drct_art.html">Art</a></li>
+            </ul>
+        </nav>
+   </header>
+   <section>
+      <h1>Join Our Newsletter and Share Your Experience</h1>
+      <p>Thank you in advance for signing up for our newsletter and 
+      for sharing your thoughts about our website. We really appreciate 
+      your feedback—it helps us make the site better for you and 
+      everyone else. Our goal is to create a space that truly works 
+      for you, and your input is a big part of that. We’re excited to 
+      hear what you think about how we can improve and bring you even 
+      more great content. Thanks again for being a part of our community.</p>
+     
+      <p>Required values are marked by an asterisk (*)</p>
+      
+      <form id="survey" action="http://www.example.com/redball/survey" method="post">
+         <fieldset id="custInfo">
+            <legend>Join our newsletter</legend>
+            <div class="formRow">
+               <label for="name">Name*</label>
+               <input name="custName" id="name" type="text" placeholder="first and last name" required>
+            </div>
+            <div class="formRow">
+               <label for="street">Street address</label>
+               <input name="custStreet" id="street" type="text">
+            </div>
+            <div class="formRow">
+               <label for="city">City</label>
+               <input name="custCity" id="city" type="text" value="Charlotte">
+            </div>
+            <div class="formRow">
+               <label for="state">State</label>
+               <input name="custState" id="state" type="text" value="NC">
+            </div>
+            <div class="formRow">
+               <label for="zip">Postal Code</label>
+               <input name="custZip" id="zip" type="text" placeholder="nnnnn (nnnn)" pattern="^\d{5}(-\d{4})?$">
+            </div>
+            <div class="formRow">
+               <label for="phone">Phone Number</label>
+               <input name="custPhone" id="phone" type="text" placeholder="(nnn) nnn-nnnn" pattern="^\d{10}$|^(\(\d{3}\)\)s*)?\d{3}[\s-]?\d{4}$">
+            </div>
+            <div class="formRow">
+               <label for="mail">E-mail*</label>
+               <input name="custEmail" id="mail" type="email" required>
+            </div>
+            
+            <div class="formRow">
+            <label for="info">How you wish to receive your newsletter?<br />(select all apply)</label>
+            <select name="infoSrc" id="info" size="5" multiple>
+               <option value="email">Email</option>
+               <option value="usps">USPS</option>
+               <option value="fedex">Fedex</option>
+               <option value="ups">UPS</option>
+               <option value="dhl">DHL</option>
+            </select>
+            </div>
+            
+            <div class="formRow">
+               <label for="feature">What would you like to see featured in our newsletter?</label>
+               <input name="nextFeature" id="feature" type="text" list="featureOptions"
+            />
+               <datalist id="featureOptions">
+                  <option value="Current Events">
+                  <option value="Fashion">
+                  <option value="Informative Articles">
+                  <option value="Politics">
+                  <option value="Precious Minerals">
+                  <option value="Wildlife">
+               </datalist>   
+            </div>
+            
+            <div class="formRow">
+               <label for="dineSpin">If you chose a mailing option, how many newsletters would you like to receive?</label>
+               <input name="dineOut" id="dineSpin" type="number" 
+                      value="1" step="1" min="0" max="20" />
+            </div>
+            
+            <input name="sendMe" id="sendCB" value="yes" type="checkbox" />
+            <label for="sendCB">Send me information on how I can donate to DRCTeasures!</label>
+         </fieldset>
+         
+         <fieldset id="expInfo">
+            <legend>Please share your experience with our website</legend>
+            
+            <div class="formRow">
+               <label for="visit">Date of visit</label>
+               <input name="visitDate" id="visit" type="date">
+            </div>
+            
+            <div class="formRow">
+               <label for="information">Did you find the information useful?</label>
+               <select name="informationType" id="information">
+                  <option value="information1" selected>Yes, very useful.</option>
+                  <option value="information2">Somewhat useful</option>
+                  <option value="information3">Neutral</option>
+                  <option value="information4">Not very useful</option>
+                  <option value="information5">No, not useful at all</option>
+               </select>
+            </div>
+            
+            <div class="formRow">
+               <label>Did you find it easy to navigate our website?<label>
+               <fieldset class="optGroup">
+                  <label for="fYes">Yes</label>
+                  <input name="sFriend" id="fYes" value="Yes" type="radio" />
+                  <label for="fNo">NO</label>
+                  <input name="sFriend" id="fNo" value="No" type="radio" />
+            </div>
+            
+            <div class="formRow">
+               <label>Do you like the overall design and layout of the website?<label>
+               <fieldset class="optGroup">
+                  <label for="fYes">Yes</label>
+                  <input name="oCorrect" id="cYes" value="Yes" type="radio" />
+                  <label for="fNo">NO</label>
+                  <input name="oCorrect" id="cNo" value="No" type="radio" />
+            </div>
+            
+            <div class="formRow">
+               <label>Would you recommend our website to others?<label>
+               <fieldset class="optGroup">
+                  <label for="hYes">Yes</label>
+                  <input name="foodHot" id="hYes" value="Yes" type="radio" />
+                  <label for="fNo">NO</label>
+                  <input name="foodHot" id="hNo" value="No" type="radio" />
+            </div>
+            
+            <div class="formRate">
+               <label for="rangebox">How would you rate our website?<br />
+                  (0=poor; 10=great)</label>
+               0
+               <input name="serviceRate" id="rangeBox" type="range"
+                      value="5" step="1" min="0" max="10" />
+               10
+            </div>
+            
+            <label for="commmbox">Tell us how we could improve our website?</label>
+            <textarea name="custExp" id="commbox"></textarea>
+         </fieldset>
+         
+         <div id="buttons">
+            <input type="submit" value="Submit My Form" />
+            <input type="reset" value="Cancel" />
+         </div>
+      </form>
+     
+   </section>
+   <footer>
+        DRCTeasures &#8226; 5736 N Tryon St, Charlotte NC &#8226; 28213
+    </footer>
+</body>
+</html>
