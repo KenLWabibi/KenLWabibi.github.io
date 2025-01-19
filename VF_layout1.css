@@ -9,7 +9,11 @@
 	Date: 18Jan24
    =============================================
 */
-
+nav {
+    background-color: #4f3b78; 
+    padding: 10px;
+    text-align: center; 
+}
 html, body {
 /* Increase font size for desktop */
 	font-size: 20px;
