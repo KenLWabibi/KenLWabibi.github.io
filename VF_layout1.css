@@ -43,13 +43,11 @@ body p, body {
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
 	font-style: normal;
 	height: 100%;
+}
 footer {
 /* Footer styles */
-	text-align: center;
-	font-size: 0.6em;
-	margin-top: 4%;
-	border-top: 3px solid rgba(178,34,34);
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-	clear: both;
-	padding-bottom: 20px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; 
+    	padding: 10px;
+    	text-align: center; 
+	margin-top: 350px;
 }
