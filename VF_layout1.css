@@ -9,6 +9,11 @@ html, body {
 /* Increase font size for desktop */
 	font-size: 20px;
 }
+html {
+/* Set background color for desktop */
+    background-color: rgba(100, 149, 237);
+    margin: 0 auto;
+}
 main{
     display: flex;
     flex-direction: column;
