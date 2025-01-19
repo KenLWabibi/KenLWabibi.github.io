@@ -9,6 +9,11 @@ html, body {
 /* Increase font size for desktop */
 	font-size: 10px;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;	
+}
 body {
     background-color:rgba(191, 138, 92); 
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
