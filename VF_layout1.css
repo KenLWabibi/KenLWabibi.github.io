@@ -20,19 +20,6 @@ html {
 	background-color: rgba(191, 138, 92);
 	margin: 0px auto;
 }
-body {
-	width: 88.2%;
-	max-width: 900px;
-	padding-left: 0.9%;
-	padding-right: 0.9%;
-	margin: 0px auto auto auto;
-	clear: none;
-	float: none;
-	background-color: LightGray;
-	-moz-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-	-webkit-box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-}
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
