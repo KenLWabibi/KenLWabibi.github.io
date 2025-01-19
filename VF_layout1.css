@@ -49,6 +49,18 @@ nav li {
     margin: 0 15px;
     font-size: 1em;
 }
+a {
+	color: #1c0b01;
+}
+a:visited {
+	color: #bd6128;
+}
+a:hover {
+	color: #732d02;
+}
+a:focus {
+	outline: thin dotted;
+}
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
