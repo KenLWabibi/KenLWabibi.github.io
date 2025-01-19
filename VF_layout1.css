@@ -20,6 +20,9 @@ nav {
     padding: 5px;
     text-align: center; 
 }
+nav li {
+    display: inline; 
+}
 html, body {
 /* Increase font size for desktop */
 	font-size: 20px;
