@@ -23,14 +23,6 @@ html {
 h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
-body p, body {
-/* Paragraph element styles */
-	margin: 3.5% 1%;
-	font-size: 1em;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
-	font-style: normal;
-	height: 100%;
-}
 footer {
 /* Footer styles */
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; 
