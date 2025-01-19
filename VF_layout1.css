@@ -22,13 +22,13 @@ main{
 body {
     width: 88.2%;	
     max-width: 900px;	
-    background-color:c3a456; 
+    background-color:#c3a456; 
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
     margin: 0 auto;
     padding: 0;
     text-align: center;	
     box-sizing: border-box;
-    box-shadow: fofof7;
+    box-shadow: 5px, 5px, 10px, 10px, #fofof7;
 }
 nav { 
     padding: 5px;
