@@ -17,12 +17,11 @@ html, body {
 
 html {
 /* Set background color for desktop */
-	background-color: rgba(100, 149, 237);
+	background-color: rgba(191, 138, 92);
 	margin: 0px auto;
 }
 body {
 	width: 88.2%;
-	height: 88.2%;
 	max-width: 900px;
 	padding-left: 0.9%;
 	padding-right: 0.9%;
