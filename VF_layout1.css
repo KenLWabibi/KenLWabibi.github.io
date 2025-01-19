@@ -11,7 +11,7 @@ html, body {
 }
 html {
 /* Set background color for desktop */
-    background-color: rgba(191, 138, 92);
+    background-color: 15365f;
     margin: 0 auto;
 }
 main{
@@ -22,13 +22,13 @@ main{
 body {
     width: 88.2%;	
     max-width: 900px;	
-    background-color:rgba(112, 109, 107); 
+    background-color:c3a456; 
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
     margin: 0 auto;
     padding: 0;
     text-align: center;	
     box-sizing: border-box;
-    box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+    box-shadow: fofof7;
 }
 nav { 
     padding: 5px;
