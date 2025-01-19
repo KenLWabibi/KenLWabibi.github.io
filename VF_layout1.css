@@ -28,7 +28,7 @@ body {
     padding: 0;
     text-align: center;	
     box-sizing: border-box;
-    box-shadow: 5px, 5px, 10px, 10px, #fofof7;
+    box-shadow: 5px, 5px, 10px, 0px, #fofof7;
 }
 nav { 
     padding: 5px;
