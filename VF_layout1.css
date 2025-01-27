@@ -1,17 +1,23 @@
 @charset "utf-8";
 
 /* =============================================
+	Base layout styles used by mobile devices
+	up to 480px and cascaded to larger devices 
+	unless superceded by other styles.
+	
 	Author: ken Wabibi 
-	Date: 18Jan24
+	Date: 27Jan24
    =============================================
 */
+
 html, body {
-/* Increase font size for desktop */
-	font-size: 20px;
-}
+	/* Increase font size for desktop */
+		font-size: 20px;
+	}
+
 html {
 /* Set background color for desktop */
-    background-color: rgb(21, 54, 95);
+    background-color:#005377;
     margin: 0 auto;
 }
 main{
@@ -22,57 +28,31 @@ main{
 body {
     width: 88.2%;	
     max-width: 900px;	
-    background-color:#c3a456; 
+    background-color:#D5C67A;
     font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
     margin: 0 auto;
-    padding: 0;
-    text-align: center;	
+    padding: 50px;
+    text-align: left;	
     box-sizing: border-box;
-    box-shadow: 5px, 5px, 10px, 0px, rgb(240, 240, 247);
+    border-top-left-radius: 20%;
+	border-top-right-radius: 20%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px
 }
-nav { 
-    padding: 5px;
-    text-align: center; 
-}
-nav ul {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 10px;
-    margin: 0;
-}
-nav li {
-    display: inline-block;
-    list-style-type: none;
-    padding: 5px;
-    margin: 0 15px;
-    font-size: 1em;
-}
-a {
-	color: #1c0b01;
-}
-a:visited {
-	color: #bd6128;
-}
-a:hover {
-	color: #732d02;
-}
-a:focus {
-	outline: thin dotted;
+h1 {
+	background-color:#F95738;
+	border-top-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
 }
 h1, h2, h3, h4, h5, h6 {
-	text-align: center;
+	text-align: center;	
 }
-footer {
-/* Footer styles */
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; 
-    	padding: 10px;
-    	text-align: center; 
-	margin-top: 350px;
+a {
+	color: #F95738;
 }
-footer a {
-	font-size: 1em;
-	text-align: center; 
-	margin: 0 15px;
+a:hover {
+	color: #7EA0B7;
 }
