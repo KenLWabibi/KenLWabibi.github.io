@@ -41,13 +41,14 @@ body {
 	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px
 }
 h1 {
+	text-align: center;
 	background-color:#F95738;
 	border-top-left-radius: 10%;
 	border-top-right-radius: 10%;
 	border-bottom-right-radius: 10%;
 	border-bottom-left-radius: 10%;
 }
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 {
 	text-align: center;	
 }
 a {
