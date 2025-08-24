@@ -54,6 +54,7 @@ h2, h3, h4, h5, h6 {
 a {
 	color: #F95738;
 	text-decoration: none;
+	font-weight: bold;
 }
 a:hover {
 	color: #7EA0B7;
