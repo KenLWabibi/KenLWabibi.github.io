@@ -52,7 +52,8 @@ h2, h3, h4, h5, h6 {
 	text-align: center;	
 }
 a {
-	color: #000000;
+	color: #F95738;
+	text-decoration: none;
 }
 a:hover {
 	color: #7EA0B7;
