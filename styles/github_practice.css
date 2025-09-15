@@ -1,0 +1,230 @@
+/* Html */
+html{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+    background: linear-gradient(to bottom, #666, #ccc);
+} 
+/* Header */
+header {
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+    color: #ffffff;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+/* Body */
+body {
+     
+    font-family: "Lucida Console", "Courier New", monospace;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding: 10px; /* Remove padding on body, it may conflict with other elements */
+    margin: 10px; /* a tiny bit of top/bottom margin overall */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body takes at least full height */
+}
+
+/* Headings */
+h1 {
+    padding: 0;
+    margin: 4px 0;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+h2, h4 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin: 0px;
+}
+
+
+/* Main */
+main {
+    flex-grow: 1; /* Ensures main content takes available space */
+    width: 90%;
+    max-width: 1000px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 5px solid #20205D;
+    padding: 35px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-bottom: 20px; /* Reduced padding to avoid pushing footer off screen */
+    text-align: left;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    line-height: 1.6;
+}
+
+/* Navigation */
+nav {
+    text-align: center;
+    margin: 5px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+}
+nav li {
+    display: inline-block;
+    padding: 2px;
+    margin: 0 5px;
+    font-size: 1em;
+}
+
+/* Links */
+a {
+	color: #000000;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+	color: #B388FF;
+    text-shadow: 0 0 3px rgba(179, 136, 255, 0.5);
+}
+p a:hover {
+    color: #B388FF;
+    text-shadow: 0 0 3px rgba(179, 136, 255, 0.5);
+}
+main p a {
+    color: #20205D;
+}
+footer p a {
+    text-decoration-line: underline;
+    color: #20205D;
+}
+
+/* Footer */
+footer {
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto 10px;
+    width: 100%;
+    max-width: 1000px;
+
+    background-color: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(6px);
+    color: #ffffff;
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    font-size: 1.1rem;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+footer a {
+	font-size: 1em;
+	text-align: center; 
+	margin: 0; 
+    padding: 0;
+}
+
+footer p {
+    margin: 4px 0;
+}
+
+/* Media Queries for Small Screens */
+@media screen and (max-width: 768px) {
+    /* Adjust the main width and margins */
+    html {
+        width: 100%;
+        margin: 0;
+    }
+
+    /* Adjust logo size and position for small screens */
+    header img {
+        position: relative;
+        left: 0;
+        top: 10px;
+        width: 150px;  /* Smaller logo for smaller screens */
+    }
+
+    /* Navigation for smaller screens */
+    nav ul {
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav li {
+        margin: 5px 0;  /* Reduce margin between navigation items */
+        padding: 5px;
+    }
+
+    /* Main content padding adjustment */
+    main {
+        padding: 20px;
+    }
+
+    /* Blockquote font size adjustment */
+    blockquote {
+        font-size: 1.2rem;
+    }
+
+    /* Footer font size adjustment */
+    footer a {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    /* Further adjustments for very small screens (phones) */
+    body {
+        font-size: 1em;
+    }
+
+    header img {
+        width: 150px;  /* Smaller logo for very small screens */
+    }
+
+    nav li {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    blockquote {
+        font-size: 1.1rem;
+    }
+
+    footer a {
+        font-size: 14px;
+    }
+}
