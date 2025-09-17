@@ -106,8 +106,8 @@ a {
     font-weight: bolder;
 }
 a:hover {
-	color: #20205d;
-    background-color: #B388FF;
+	color: #B388FF;
+    background-color: #20205d;
     border-radius: 5px;
 }
 main p a {
