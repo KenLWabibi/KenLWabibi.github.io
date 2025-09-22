@@ -64,7 +64,7 @@ main {
     backdrop-filter: blur(10px);
     color: #fff;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    border: 5px solid #20205D;
+    border: thin solid #20205D;
     padding: 35px;
     padding-top: 5px;
     box-sizing: border-box;
